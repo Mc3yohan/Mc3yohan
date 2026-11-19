@@ -16,6 +16,7 @@
 | 🌐 **Quantico Systems (Demos por Industria)** | Plataformas POS multimoneda, inventarios matriciales y asistentes IA omnicanal probables desde el navegador. | **[quanticosystems.com](https://quanticosystems.com)** |
 | 🤖 **`whatsapp-ai-handoff-engine`** | Webhook oficial de **WhatsApp Cloud API + IA** en `FastAPI` con idempotencia (`wamid`), cero alucinaciones en precios (`Decimal`), fallo seguro y máquina de estados con traspaso limpio a operador humano (`pytest`). | **[Ver código y tests](https://github.com/Mc3yohan/whatsapp-ai-handoff-engine)** |
 | 💳 **`multicurrency-pos-ledger-api`** | Motor transaccional multimoneda (`USD / VES / USDT`), *snapshots* inmutables de tasa, saldos a favor, privacidad de márgenes por rol (`RBAC`) e importador idempotente CSV/ERP en `FastAPI + Pydantic v2`. | **[Ver código y tests](https://github.com/Mc3yohan/multicurrency-pos-ledger-api)** |
+| ⚙️ **`python-ops-automation-pipeline`** | Pipeline ETL y alertas en Python autoalojado (alternativa a Zapier/Make en VPS de $5/mes) con parseo estricto `Decimal`, deduplicación SHA-256 en SQLite, cuarentena de filas corruptas, Docker y CI automatizado. | **[Ver código y CI](https://github.com/Mc3yohan/python-ops-automation-pipeline)** |
 
 ---
 
