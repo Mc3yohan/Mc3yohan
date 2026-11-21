@@ -21,7 +21,7 @@ Ingeniero Backend y de Automatización con IA radicado en Caracas (GMT-4, trabaj
 
 ### Contribuciones Open Source
 
-- **[hanzoai/cloud#58](https://github.com/hanzoai/cloud/pull/58)** *(Mergeado)* — Benchmark en Go sin dependencias (`CGO_ENABLED=0`) para agentes empresariales con control dual, versionado CAS optimista y 27 pruebas verificadas bajo `-race`.
+- **[hanzoai/cloud#58](https://github.com/hanzoai/cloud/pull/58)** *(Fusionado)* — Benchmark en Go sin dependencias (`CGO_ENABLED=0`) para agentes empresariales con control dual, versionado CAS optimista y 27 pruebas verificadas bajo `-race`.
 - **[Get-Concord-AI/concord-mcp#388](https://github.com/Get-Concord-AI/concord-mcp/pull/388)** y **[#389](https://github.com/Get-Concord-AI/concord-mcp/pull/389)** — Correcciones en TypeScript/MCP para marcadores de cierre en Cursor y reasignación forzada de tareas huérfanas.
 - **[prooflinedev/sdk-python#73](https://github.com/prooflinedev/sdk-python/pull/73)** — Paridad tipada en `ReviewFilters` (`audits`) contra la especificación OpenAPI en los clientes Python síncrono y asíncrono.
 
@@ -30,7 +30,7 @@ Ingeniero Backend y de Automatización con IA radicado en Caracas (GMT-4, trabaj
 ### Stack Principal
 
 - **Backend y Datos:** Python (`FastAPI`, `SQLAlchemy 2`, `Pydantic v2`, `pytest`), Go, PostgreSQL + PostGIS, Redis, SQLite (WAL), Docker, Nginx.
-- **IA y Mensajería:** WhatsApp Business Cloud API, *guardrails* deterministas de herramientas y precios, APIs de Gemini / OpenAI / Claude, servidores MCP e inferencia local sobre GPU de 24 GB VRAM para fronteras estrictas de privacidad.
+- **IA y Mensajería:** WhatsApp Business Cloud API, *guardrails* deterministas de herramientas y precios, APIs de Gemini / OpenAI / Claude, servidores MCP e inferencia local sobre GPU de 24 GB VRAM para cargas de trabajo con datos sensibles.
 - **Frontend y Edge:** TypeScript, Next.js / React, Leaflet GIS, PWAs offline-first (`IndexedDB` + Web Crypto), Cloudflare Workers y D1.
 
 ---
