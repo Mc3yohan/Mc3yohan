@@ -1,27 +1,38 @@
 # Víctor Yohan Betancourt Marín
 
-**Ingeniero de Software, Automatización con IA & Sistemas Empresariales**  
-`Python` · `FastAPI` · `TypeScript` · `Go` · `WhatsApp Business Cloud API` · `Gemini / OpenAI / Local LLMs` · `Next.js / React` · `PostgreSQL + PostGIS` · `Redis` · `Cloudflare Workers & D1` · `Docker`
+**Language:** **English** · [Español (README.es.md)](README.es.md)
 
-📍 Caracas, Venezuela (GMT-4 · 100% Remoto) · 🌐 **[quanticosystems.com](https://quanticosystems.com)** · ✉️ [yohanvictorb@gmail.com](mailto:yohanvictorb@gmail.com)
+Backend & AI Automation Engineer based in Caracas (GMT-4, working remotely). I build multi-currency POS/ERP backends, WhatsApp Business Cloud API sales assistants, geospatial field platforms, and self-hosted Python data pipelines through [Quantico Systems](https://quanticosystems.com).
 
 ---
 
-### Demos Interactivas en Vivo y Repositorios Públicos de Referencia
+### Selected Public Projects
 
-> 🔒 *El código fuente de los sistemas comerciales activos de mis clientes en **Quantico Systems** se aloja en repositorios privados independientes por acuerdos de confidencialidad y protección de datos financieros. Abajo encontrarás **demos interactivas en vivo** y **arquitecturas abiertas de referencia** con pruebas automatizadas y CI en verde.*
-
-| Proyecto / Demo | Qué demuestra en producción | Enlaces |
+| Project | Summary | Links |
 | :--- | :--- | :--- |
-| 🗺️ **`quantico-censo` (GIS + PWA Offline Cifrada)** | Centro de mando territorial CQRS (`FastAPI sync/read` detrás de `Nginx` + `PostgreSQL 15 / PostGIS` + `Redis Pub/Sub`) y PWA móvil offline-first en `TypeScript` estricto con bóveda cifrada `PBKDF2 + AES-GCM-256` en `IndexedDB` y geocercas antifraude. | **[Simulador en Vivo](https://mc3yohan.github.io/quantico-censo/)** · **[Código y CI E2E](https://github.com/Mc3yohan/quantico-censo)** |
-| 🌐 **Quantico Systems (Demos por Industria)** | Plataformas POS multimoneda, inventarios matriciales, CRM B2B y asistentes IA omnicanal probables desde el navegador. | **[quanticosystems.com](https://quanticosystems.com)** |
-| 🤖 **`whatsapp-ai-handoff-engine`** | Webhook oficial de **WhatsApp Cloud API + IA** en `FastAPI` con idempotencia (`wamid`), cero alucinaciones en precios (`Decimal`), fallo seguro y máquina de estados con traspaso limpio a operador humano (`pytest`). | **[Ver código y tests](https://github.com/Mc3yohan/whatsapp-ai-handoff-engine)** |
-| 💳 **`multicurrency-pos-ledger-api`** | Motor transaccional multimoneda (`USD / VES / USDT`), *snapshots* inmutables de tasa, saldos a favor, privacidad de márgenes por rol (`RBAC`) e importador idempotente CSV/ERP en `FastAPI + Pydantic v2`. | **[Ver código y tests](https://github.com/Mc3yohan/multicurrency-pos-ledger-api)** |
-| ⚙️ **`python-ops-automation-pipeline`** | Pipeline ETL y alertas en Python autoalojado (alternativa a Zapier/Make) con parseo estricto `Decimal`, deduplicación SHA-256 en SQLite, cuarentena de filas corruptas, Docker y CI automatizado. | **[Ver código y CI](https://github.com/Mc3yohan/python-ops-automation-pipeline)** |
+| **`quantico-censo`** | Geospatial retail census platform, offline-first encrypted mobile PWA (`Web Worker` + `PBKDF2-SHA256` + `AES-GCM-256` in `IndexedDB`), and Nginx/FastAPI/PostGIS/Redis CQRS command center with Docker E2E CI. | [Live Simulator](https://mc3yohan.github.io/quantico-censo/) · [Repository](https://github.com/Mc3yohan/quantico-censo) |
+| **`whatsapp-ai-handoff-engine`** | FastAPI webhook service for Meta WhatsApp Business Cloud API featuring `X-Hub-Signature-256` HMAC verification, SQLite WAL `wamid` idempotency, `Decimal` pricing, and deterministic human handoff. | [Repository](https://github.com/Mc3yohan/whatsapp-ai-handoff-engine) |
+| **`multicurrency-pos-ledger-api`** | Multi-currency POS ledger (`USD / VES / USDT`) with atomic SQLite WAL stock locking (`BEGIN IMMEDIATE`), immutable exchange-rate snapshots, API-key RBAC margin isolation, and idempotent CSV imports. | [Repository](https://github.com/Mc3yohan/multicurrency-pos-ledger-api) |
+| **`python-ops-automation-pipeline`** | Zero-dependency Python ETL and webhook alerting pipeline with strict `Decimal` parsing, SHA-256 SQLite deduplication, quarantine CSVs, and Docker packaging. | [Repository](https://github.com/Mc3yohan/python-ops-automation-pipeline) |
+
+*Commercial client systems built under Quantico Systems are hosted in private repositories; interactive vertical demos are available at [quanticosystems.com](https://quanticosystems.com).*
 
 ---
 
-### Especialidades de Ingeniería
-- **IA Conversacional, Agentes & Inferencia Híbrida:** Despliegue productivo de agentes en **WhatsApp Business Cloud API**, integración con **Gemini / OpenAI / Claude**, servidores **MCP**, enrutamiento costo-calidad de modelos e inferencia local (**Qwen Coder** sobre GPU local de 24 GB VRAM para fronteras estrictas de privacidad), más pipelines en **Python + Pandas** (-60% en tiempos operativos de reportería).
-- **Arquitectura Backend, Geoespacial, POS & ERP:** Núcleos modulares en **Python (`FastAPI`, `SQLAlchemy 2`, `Pydantic v2`)**, **Go (`CGO_ENABLED=0`)**, **TypeScript**, **PostgreSQL + PostGIS**, **Redis**, **SQLite (WAL)**, **Cloudflare Workers + D1**, **Docker** sobre **Linux VPS** y suites con **+800 pruebas automatizadas**.
-- **Integración con Sistemas Corporativos:** Conectores y migradores sin tiempo de inactividad desde hojas complejas de **Excel** y sistemas administrativos tradicionales (**A2 Softway**, **Profit Plus**, **Fina**).
+### Open Source Contributions
+
+- **[hanzoai/cloud#58](https://github.com/hanzoai/cloud/pull/58)** *(Merged)* — Dependency-free Go (`CGO_ENABLED=0`) dual-control business-agent benchmark with optimistic CAS versioning and 27 race-tested cases.
+- **[Get-Concord-AI/concord-mcp#388](https://github.com/Get-Concord-AI/concord-mcp/pull/388)** & **[#389](https://github.com/Get-Concord-AI/concord-mcp/pull/389)** — TypeScript/MCP fixes for Cursor stop-hook markers and forced recovery of stale tasks without a human owner.
+- **[prooflinedev/sdk-python#73](https://github.com/prooflinedev/sdk-python/pull/73)** — Typed `ReviewFilters` OpenAPI parity (`audits` parameter) across sync and async Python SDK clients.
+
+---
+
+### Core Stack
+
+- **Backend & Storage:** Python (`FastAPI`, `SQLAlchemy 2`, `Pydantic v2`, `pytest`), Go, PostgreSQL + PostGIS, Redis, SQLite (WAL), Docker, Nginx.
+- **AI & Messaging Systems:** WhatsApp Business Cloud API, deterministic tool-calling & numeric guardrails, Gemini / OpenAI / Claude APIs, MCP servers, local inference on 24 GB VRAM GPUs for privacy-sensitive workloads.
+- **Frontend & Edge:** TypeScript, Next.js / React, Leaflet GIS, offline-first PWAs (`IndexedDB` + Web Crypto), Cloudflare Workers & D1.
+
+---
+
+[quanticosystems.com](https://quanticosystems.com) · [yohanvictorb@gmail.com](mailto:yohanvictorb@gmail.com)
