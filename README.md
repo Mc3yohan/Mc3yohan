@@ -38,8 +38,8 @@ I build multi-currency POS/ERP backends, WhatsApp Business Cloud API sales assis
         <li><strong>Offline encrypted PWA:</strong> Strict TypeScript + Web Worker <code>PBKDF2-SHA256</code> / <code>AES-GCM-256</code> vault in <code>IndexedDB</code>.</li>
       </ul>
       <p>
-        <a href="https://mc3yohan.github.io/quantico-censo/"><img src="https://img.shields.io/badge/Live%20Simulator-Open%20App-2563EB?style=flat-square" alt="Live Simulator" /></a>
-        <a href="https://github.com/Mc3yohan/quantico-censo"><img src="https://img.shields.io/badge/Source%20%26%20Docker%20CI-Repository-1E293B?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
+        <a href="https://mc3yohan.github.io/quantico-censo/"><img src="https://img.shields.io/badge/Live%20Demo-Open-2563EB?style=flat-square" alt="Live Demo" /></a>
+        <a href="https://github.com/Mc3yohan/quantico-censo"><img src="https://img.shields.io/badge/Code%20%26%20CI-GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
       </p>
     </td>
   </tr>

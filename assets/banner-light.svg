@@ -61,18 +61,18 @@
     </g>
 
     <!-- Left typography block -->
-    <g transform="translate(48, 42)">
-      <rect x="0" y="0" width="322" height="24" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
-      <circle cx="14" cy="12" r="3.5" fill="#059669"/>
-      <text x="26" y="15.5" fill="#334155" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" letter-spacing="0.6">QUANTICO SYSTEMS · GMT-4 REMOTE</text>
+    <g transform="translate(46, 36)">
+      <rect x="0" y="0" width="356" height="26" rx="13" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <circle cx="15" cy="13" r="4" fill="#059669"/>
+      <text x="28" y="17" fill="#334155" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" font-weight="600" letter-spacing="0.6">QUANTICO SYSTEMS · GMT-4 REMOTE</text>
 
-      <text x="0" y="69" fill="#0F172A" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="35" font-weight="700" letter-spacing="-0.6">Víctor Yohan Betancourt Marín</text>
+      <text x="0" y="75" fill="#0F172A" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-0.6">Víctor Yohan Betancourt Marín</text>
 
-      <text x="0" y="101" fill="#475569" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="500">Backend, Geospatial &amp; AI Automation Engineer</text>
+      <text x="0" y="109" fill="#475569" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="500">Backend, Geospatial &amp; AI Automation Engineer</text>
 
-      <rect x="0" y="120" width="64" height="2.5" rx="1.25" fill="url(#accentBarL)"/>
+      <rect x="0" y="128" width="72" height="3" rx="1.5" fill="url(#accentBarL)"/>
 
-      <text x="0" y="147" fill="#1D4ED8" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" font-weight="600" letter-spacing="0.3">Python / FastAPI  ·  Go  ·  TypeScript  ·  PostgreSQL / PostGIS  ·  Redis  ·  Docker</text>
+      <text x="0" y="157" fill="#1D4ED8" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" letter-spacing="0.2">Python / FastAPI · Go · TypeScript · PostGIS · Redis · Docker</text>
     </g>
   </g>
 

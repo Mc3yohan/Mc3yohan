@@ -38,8 +38,8 @@ Desarrollo sistemas POS/ERP multimoneda, asistentes comerciales sobre WhatsApp B
         <li><strong>PWA móvil cifrada:</strong> TypeScript estricto + bóveda <code>PBKDF2-SHA256</code> / <code>AES-GCM-256</code> en Web Worker e <code>IndexedDB</code>.</li>
       </ul>
       <p>
-        <a href="https://mc3yohan.github.io/quantico-censo/"><img src="https://img.shields.io/badge/Simulador%20en%20Vivo-Abrir%20App-2563EB?style=flat-square" alt="Simulador en Vivo" /></a>
-        <a href="https://github.com/Mc3yohan/quantico-censo"><img src="https://img.shields.io/badge/C%C3%B3digo%20y%20CI%20Docker-Repositorio-1E293B?style=flat-square&logo=github&logoColor=white" alt="Repositorio" /></a>
+        <a href="https://mc3yohan.github.io/quantico-censo/"><img src="https://img.shields.io/badge/Demo%20en%20Vivo-Abrir-2563EB?style=flat-square" alt="Demo en Vivo" /></a>
+        <a href="https://github.com/Mc3yohan/quantico-censo"><img src="https://img.shields.io/badge/C%C3%B3digo%20y%20CI-GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="Repositorio" /></a>
       </p>
     </td>
   </tr>
