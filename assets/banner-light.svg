@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-label="Víctor Yohan Betancourt Marín — Backend, Geospatial &amp; AI Automation Engineer">
+  <defs>
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <radialGradient id="glowLight" cx="82%" cy="32%" r="48%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.11"/>
+      <stop offset="65%" stop-color="#0EA5E9" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentBarL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <pattern id="gridLight" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#CBD5E1" opacity="0.75"/>
+    </pattern>
+    <clipPath id="cardClipL">
+      <rect x="0.5" y="0.5" width="1199" height="219" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClipL)">
+    <rect width="1200" height="220" fill="url(#bgLight)"/>
+    <rect width="1200" height="220" fill="url(#gridLight)"/>
+    <rect width="1200" height="220" fill="url(#glowLight)"/>
+
+    <!-- Top hairline accent -->
+    <rect x="0" y="0" width="1200" height="3" fill="url(#accentBarL)"/>
+
+    <!-- Right-side architectural topology / GIS vector motif -->
+    <g transform="translate(825, 22)" opacity="0.95">
+      <polygon points="90,22 215,10 295,62 272,148 158,166 64,116" fill="#DBEAFE" fill-opacity="0.45" stroke="#1D4ED8" stroke-opacity="0.32" stroke-width="1.2" stroke-dasharray="5 4"/>
+      <polygon points="122,48 205,40 248,82 224,132 146,138 106,96" fill="#2563EB" fill-opacity="0.08" stroke="#0284C7" stroke-opacity="0.28" stroke-width="1"/>
+
+      <line x1="90" y1="68" x2="184" y2="54" stroke="#0284C7" stroke-opacity="0.55" stroke-width="1.4"/>
+      <line x1="184" y1="54" x2="262" y2="96" stroke="#0284C7" stroke-opacity="0.55" stroke-width="1.4"/>
+      <line x1="90" y1="68" x2="162" y2="128" stroke="#1D4ED8" stroke-opacity="0.42" stroke-width="1.2"/>
+      <line x1="162" y1="128" x2="262" y2="96" stroke="#1D4ED8" stroke-opacity="0.42" stroke-width="1.2"/>
+
+      <g>
+        <circle cx="90" cy="68" r="16" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5"/>
+        <text x="90" y="72" text-anchor="middle" fill="#0F172A" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" font-weight="700">API</text>
+      </g>
+      <g>
+        <circle cx="184" cy="54" r="18" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.6"/>
+        <text x="184" y="58" text-anchor="middle" fill="#1D4ED8" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" font-weight="700">GIS</text>
+      </g>
+      <g>
+        <circle cx="262" cy="96" r="16" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5"/>
+        <text x="262" y="100" text-anchor="middle" fill="#0F172A" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" font-weight="700">LLM</text>
+      </g>
+      <g>
+        <circle cx="162" cy="128" r="16" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+        <text x="162" y="132" text-anchor="middle" fill="#047857" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" font-weight="700">WAL</text>
+      </g>
+
+      <text x="180" y="176" text-anchor="middle" fill="#64748B" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="0.8">CQRS · POSTGIS · DECIMAL · CI</text>
+    </g>
+
+    <!-- Left typography block -->
+    <g transform="translate(48, 42)">
+      <rect x="0" y="0" width="322" height="24" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <circle cx="14" cy="12" r="3.5" fill="#059669"/>
+      <text x="26" y="15.5" fill="#334155" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" letter-spacing="0.6">QUANTICO SYSTEMS · GMT-4 REMOTE</text>
+
+      <text x="0" y="69" fill="#0F172A" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="35" font-weight="700" letter-spacing="-0.6">Víctor Yohan Betancourt Marín</text>
+
+      <text x="0" y="101" fill="#475569" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="500">Backend, Geospatial &amp; AI Automation Engineer</text>
+
+      <rect x="0" y="120" width="64" height="2.5" rx="1.25" fill="url(#accentBarL)"/>
+
+      <text x="0" y="147" fill="#1D4ED8" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" font-weight="600" letter-spacing="0.3">Python / FastAPI  ·  Go  ·  TypeScript  ·  PostgreSQL / PostGIS  ·  Redis  ·  Docker</text>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="219" rx="14" fill="none" stroke="#D0D7DE" stroke-width="1"/>
+</svg>
